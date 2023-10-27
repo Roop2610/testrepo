@@ -1,0 +1,15 @@
+1. Turn On and Off the Motor with help of relay for 10 times, Keep it on for 3 sec and off for 2 sec		
+Turn On-3 Sec		
+Turn Off - 2 Sec - 1 cycle complete
+		   Perform 10 cycles to finish
+		
+		
+2. Turn On/Off the motor, Motor gives feedback of its On/Off status through digital input. 		
+   Turn On the motor, after turning on the motor if controller doesn’t receive motor On feedback for 60 Sec then trigger alarm "On status fail"		
+   Turn Off the motor, after turning off the motor if controller doesn’t receive motor Off feedback for 60 Sec then trigger alarm "Off status fail"		
+		
+3. Water level tank with Level of HH and H( digital input)		
+		
+   Turn On the motor		
+   On Level HH, turn off the motor		
+   On Level H, turn on the motor		
